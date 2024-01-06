@@ -6,8 +6,8 @@
 }
 
 * {
-  margin: 0;
-  padding: 0;
+  /* margin: 0;
+  padding: 0; */
   box-sizing: border-box;
   font-family: "open sans", sans-serif;
 }
@@ -67,15 +67,22 @@ nav {
     margin-right: 50px;
     padding: 5px;
   }
-  & #hire-btn {
-    background-color: var(--color_02);
-    border: none;
-    & a {
-      color: var(--color_03);
-    }
-  }
+}
+/* banner related style */
+
+.banner {
+  padding: 30px 30px 30px 150px;
+  display: flex;
+  align-items: center;
 }
 
+#hire-btn {
+  background-color: var(--color_02);
+  border: none;
+  & a {
+    color: var(--color_03);
+  }
+}
 #download-btn {
   background-color: var(--color_02);
   border: none;
@@ -85,9 +92,14 @@ nav {
 }
 
 #contact-btn {
-  background:none;
+  background: none;
   border-color: var(--color_02);
   & a {
     color: var(--color_02);
   }
+}
+
+#profile-pic {
+  width: 500px;
+  height: 600px;
 }
