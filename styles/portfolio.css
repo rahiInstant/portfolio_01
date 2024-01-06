@@ -1,19 +1,47 @@
+/* Variable*/
 :root {
-  --font_01: "Open Sans";
   --color_01: #181818;
   --color_02: #fd6e0a;
   --color_03: #ffffff;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "open sans", sans-serif;
+}
+
+/* common style */
+.common-btn {
+  height: 40px;
+  width: 140px;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  & a {
+    text-decoration: none;
+  }
+}
+
+/* header related style */
+.header {
+  background: #fff8f3;
+}
+
+/* nav related style */
+
 nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  /* margin: 0 100px; */
 }
 
 #nav-title {
   color: var(--color_01);
-  font-family: var(--font_01, sans-serif);
   font-size: 45px;
   font-style: normal;
   font-weight: 800;
@@ -40,15 +68,26 @@ nav {
     padding: 5px;
   }
   & #hire-btn {
-    display: flex;
-    height: 25px;
-    width: 100px;
     background-color: var(--color_02);
-    border-radius: 5px;
-    justify-content: center;
-    align-items: center;
+    border: none;
     & a {
       color: var(--color_03);
     }
+  }
+}
+
+#download-btn {
+  background-color: var(--color_02);
+  border: none;
+  & a {
+    color: var(--color_03);
+  }
+}
+
+#contact-btn {
+  background:none;
+  border-color: var(--color_02);
+  & a {
+    color: var(--color_02);
   }
 }
