@@ -4,6 +4,8 @@
   --color_02: #fd6e0a;
   --color_03: #ffffff;
   --color_04: #fff8f3;
+  --color_05: #474747;
+  --color_06: #757575;
 }
 
 * {
@@ -139,7 +141,12 @@ nav {
   height: 600px;
 }
 
-/* section styles */
+/* main section styles */
+
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
 
 /* ABOUT section styles */
 .about {
@@ -147,4 +154,23 @@ nav {
   border-radius: 10px;
   background: var(--color_04);
   margin: 130px 0;
+}
+
+.info-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info {
+  text-align: center;
+}
+
+.info-title {
+  margin-bottom: 0;
+  color: var(--color_06);
+}
+
+.info-description {
+  margin-top: 5px;
+  color: var(--color_05);
 }
