@@ -1,0 +1,54 @@
+:root {
+  --font_01: "Open Sans";
+  --color_01: #181818;
+  --color_02: #fd6e0a;
+  --color_03: #ffffff;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#nav-title {
+  color: var(--color_01);
+  font-family: var(--font_01, sans-serif);
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+#r {
+  color: var(--color_02);
+}
+
+#nav-anchor {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  font-family: var(--font_01);
+  font-size: 15px;
+  font-weight: 600;
+  & a {
+    text-decoration: none;
+    color: var(--color_01);
+  }
+  & li {
+    margin-right: 50px;
+    padding: 5px;
+  }
+  & #hire-btn {
+    display: flex;
+    height: 25px;
+    width: 100px;
+    background-color: var(--color_02);
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    & a {
+      color: var(--color_03);
+    }
+  }
+}
