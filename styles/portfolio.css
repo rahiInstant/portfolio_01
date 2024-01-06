@@ -209,7 +209,12 @@ main {
 }
 
 /* Resume summary section styles */
-
+.resume-summary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 131px;
+}
 
 .education-experience-container {
   display: flex;
@@ -259,4 +264,70 @@ main {
 .experience > h4 {
   font-size: 25px;
   font-weight: 700;
+}
+
+/* footer section styles */
+
+.footer {
+  background-color: var(--color_04);
+  padding: 50px;
+}
+
+.foot-content {
+  display: flex;
+  margin: 0 230px;
+  justify-content: space-between;
+}
+
+.connect {
+  width: 60%;
+  margin-right: 75px;
+}
+
+.connect > p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.contact-icon {
+  display: flex;
+  width: 100px;
+  justify-content: space-between;
+}
+
+.message {
+  margin-left: 75px;
+  width: 40%;
+}
+
+.message-form {
+  display: flex;
+  flex-direction: column;
+  margin: 10;
+
+}
+
+#name, #email {
+  border: none;
+  font-size: 16px;
+  height: 64px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  text-indent: 20px;
+}
+
+#message {
+  border: none;
+  font-size: 16px;
+  height: 200px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  text-indent: 20px;
+  line-height: 50px;
+  
+}
+
+#submit-btn {
+  background-color: var(--color_02);
+  border: none;color: var(--color_03);
 }
