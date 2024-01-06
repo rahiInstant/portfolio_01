@@ -33,6 +33,7 @@
   text-align: center;
   font-size: 35px;
   font-weight: 700;
+  color: var(--color_01);
 }
 
 .section-description {
@@ -40,7 +41,7 @@
   font-size: 18px;
   font-weight: 400;
   /* padding: 30px 0;  */
-  margin:  40px 60px;
+  margin: 40px 60px;
   color: var(--color_06);
 }
 
@@ -54,7 +55,6 @@
   font-size: 16px;
   font-weight: 400;
   color: var(--color_06);
- 
 }
 
 /* header related style */
@@ -206,4 +206,57 @@ main {
   border-radius: 10px;
   padding: 27px;
   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+/* Resume summary section styles */
+
+
+.education-experience-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.education,
+.experience {
+  padding: 30px;
+}
+
+.degree-title,
+.company-name {
+  margin: 0 0 5px 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.degree-duration,
+.job-duration {
+  margin: 0 0 20px 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.degree-description,
+.job-description {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.education,
+.experience > h4,
+.degree-title,
+.company-name {
+  color: var(--color_05);
+}
+
+.degree-duration,
+.degree-description,
+.job-duration,
+.job-description {
+  color: var(--color_06);
+}
+
+.education,
+.experience > h4 {
+  font-size: 25px;
+  font-weight: 700;
 }
