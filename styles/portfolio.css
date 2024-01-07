@@ -22,8 +22,6 @@
   font-size: 15px;
   font-weight: 600;
   border-radius: 5px;
-  justify-content: center;
-  align-items: center;
   & a {
     text-decoration: none;
   }
@@ -301,32 +299,21 @@ main {
 .message-form {
   display: flex;
   flex-direction: column;
-  margin: 10;
-
+  gap: 15px;
 }
 
-#name, #email {
+.message-form input, textarea {
   border: none;
   font-size: 16px;
-  height: 64px;
   border-radius: 5px;
-  margin-bottom: 15px;
-  text-indent: 20px;
+  padding: 20px;
 }
 
-#message {
-  border: none;
-  font-size: 16px;
-  height: 200px;
-  border-radius: 5px;
-  margin-bottom: 15px;
-  text-indent: 20px;
-  line-height: 50px;
-  
-}
+
 
 #submit-btn {
   background-color: var(--color_02);
   border: none;
   color: var(--color_03);
+  padding: 0;
 }
