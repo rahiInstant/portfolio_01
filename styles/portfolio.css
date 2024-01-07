@@ -278,13 +278,13 @@ main {
 
 .foot-content {
   display: flex;
+  gap: 150px;
   margin: 0 230px;
   justify-content: space-between;
 }
 
-.connect {
-  width: 60%;
-  margin-right: 75px;
+.footer-column {
+  width: 50%;
 }
 
 .connect > p {
@@ -296,11 +296,6 @@ main {
   display: flex;
   width: 100px;
   justify-content: space-between;
-}
-
-.message {
-  margin-left: 75px;
-  width: 40%;
 }
 
 .message-form {
@@ -332,5 +327,6 @@ main {
 
 #submit-btn {
   background-color: var(--color_02);
-  border: none;color: var(--color_03);
+  border: none;
+  color: var(--color_03);
 }
