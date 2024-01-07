@@ -59,12 +59,16 @@
 
 /* header related style */
 .header {
+  display: flex;
   background: var(--color_04);
   background-image: url(../images/header_bg.png);
   background-repeat: no-repeat;
   background-position: bottom right;
 }
 
+.header > img {
+  margin: 40px 70px 25px 0px;
+}
 /* nav related style */
 
 nav {
@@ -152,8 +156,8 @@ nav {
 }
 
 #profile-pic {
-  width: 500px;
-  height: 600px;
+  width: 550px;
+  height: 650px;
 }
 
 /* main section styles */
