@@ -59,7 +59,6 @@
 
 /* header related style */
 .header {
-  display: flex;
   background: var(--color_04);
   background-image: url(../images/header_bg.png);
   background-repeat: no-repeat;
