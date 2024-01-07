@@ -290,10 +290,8 @@ main {
   font-weight: 400;
 }
 
-.contact-icon {
-  display: flex;
-  width: 100px;
-  justify-content: space-between;
+.icon {
+  margin-right: 20px;
 }
 
 .message-form {
